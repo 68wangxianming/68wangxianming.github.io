@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="English">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>ES5核心技术 | Sorth Tong</title>
+    <meta name="description" content="年少不被层楼误，余生不羁尽自由。">
+    <link rel="icon" href="/test.png">
+    
+    <link rel="preload" href="/assets/css/0.styles.0ad23782.css" as="style"><link rel="preload" href="/assets/js/app.6e5cd8bf.js" as="script"><link rel="preload" href="/assets/js/2.f4f4c0ef.js" as="script"><link rel="preload" href="/assets/js/35.1c78414f.js" as="script"><link rel="prefetch" href="/assets/js/10.831e867e.js"><link rel="prefetch" href="/assets/js/11.39d09690.js"><link rel="prefetch" href="/assets/js/12.7ac44b73.js"><link rel="prefetch" href="/assets/js/13.de85716f.js"><link rel="prefetch" href="/assets/js/14.59020023.js"><link rel="prefetch" href="/assets/js/15.e9f7a3e2.js"><link rel="prefetch" href="/assets/js/16.cef412aa.js"><link rel="prefetch" href="/assets/js/17.92d82f66.js"><link rel="prefetch" href="/assets/js/18.527b1d74.js"><link rel="prefetch" href="/assets/js/19.d9ae19a7.js"><link rel="prefetch" href="/assets/js/20.581dd66a.js"><link rel="prefetch" href="/assets/js/21.31814c4a.js"><link rel="prefetch" href="/assets/js/22.457a5ceb.js"><link rel="prefetch" href="/assets/js/23.75e602d2.js"><link rel="prefetch" href="/assets/js/24.12ed18f4.js"><link rel="prefetch" href="/assets/js/25.d971f073.js"><link rel="prefetch" href="/assets/js/26.91f1421d.js"><link rel="prefetch" href="/assets/js/27.21e81bad.js"><link rel="prefetch" href="/assets/js/28.746abe2b.js"><link rel="prefetch" href="/assets/js/29.903ee6d3.js"><link rel="prefetch" href="/assets/js/3.38185587.js"><link rel="prefetch" href="/assets/js/30.72c58b78.js"><link rel="prefetch" href="/assets/js/31.db62d21f.js"><link rel="prefetch" href="/assets/js/32.42dca854.js"><link rel="prefetch" href="/assets/js/33.53015461.js"><link rel="prefetch" href="/assets/js/34.4df41d5e.js"><link rel="prefetch" href="/assets/js/36.8f6083bf.js"><link rel="prefetch" href="/assets/js/37.6a532228.js"><link rel="prefetch" href="/assets/js/38.32236b9c.js"><link rel="prefetch" href="/assets/js/39.5b7eca2b.js"><link rel="prefetch" href="/assets/js/4.d463c8a2.js"><link rel="prefetch" href="/assets/js/40.292e4475.js"><link rel="prefetch" href="/assets/js/41.56fdbd16.js"><link rel="prefetch" href="/assets/js/42.3f9ae95a.js"><link rel="prefetch" href="/assets/js/43.9fab2bff.js"><link rel="prefetch" href="/assets/js/44.f1fb8624.js"><link rel="prefetch" href="/assets/js/45.29339aca.js"><link rel="prefetch" href="/assets/js/46.dbc5baae.js"><link rel="prefetch" href="/assets/js/47.3f19be50.js"><link rel="prefetch" href="/assets/js/48.e37001dd.js"><link rel="prefetch" href="/assets/js/49.0c5929ea.js"><link rel="prefetch" href="/assets/js/5.af576b55.js"><link rel="prefetch" href="/assets/js/50.2ea98ce7.js"><link rel="prefetch" href="/assets/js/51.2bb076ab.js"><link rel="prefetch" href="/assets/js/52.d695bfb1.js"><link rel="prefetch" href="/assets/js/53.47ef7a6e.js"><link rel="prefetch" href="/assets/js/54.c6ef50ce.js"><link rel="prefetch" href="/assets/js/55.c105c469.js"><link rel="prefetch" href="/assets/js/56.125bd3c5.js"><link rel="prefetch" href="/assets/js/57.9fe1eb01.js"><link rel="prefetch" href="/assets/js/58.344d2a96.js"><link rel="prefetch" href="/assets/js/59.d451c70f.js"><link rel="prefetch" href="/assets/js/6.bed7bdce.js"><link rel="prefetch" href="/assets/js/60.97b2294e.js"><link rel="prefetch" href="/assets/js/61.90ef3a94.js"><link rel="prefetch" href="/assets/js/62.d276260a.js"><link rel="prefetch" href="/assets/js/63.e9a299c4.js"><link rel="prefetch" href="/assets/js/64.1da71f5d.js"><link rel="prefetch" href="/assets/js/65.2f42b44b.js"><link rel="prefetch" href="/assets/js/66.0c4efc41.js"><link rel="prefetch" href="/assets/js/67.6cee9ef2.js"><link rel="prefetch" href="/assets/js/68.ccc47f91.js"><link rel="prefetch" href="/assets/js/69.68b9a2d9.js"><link rel="prefetch" href="/assets/js/7.4d390a32.js"><link rel="prefetch" href="/assets/js/70.02b449cc.js"><link rel="prefetch" href="/assets/js/71.ee047f90.js"><link rel="prefetch" href="/assets/js/72.7b2af38d.js"><link rel="prefetch" href="/assets/js/73.a301d903.js"><link rel="prefetch" href="/assets/js/74.38f75c13.js"><link rel="prefetch" href="/assets/js/75.fada9231.js"><link rel="prefetch" href="/assets/js/76.09a2cfc3.js"><link rel="prefetch" href="/assets/js/77.5ef8110e.js"><link rel="prefetch" href="/assets/js/78.ea307212.js"><link rel="prefetch" href="/assets/js/79.b17e7321.js"><link rel="prefetch" href="/assets/js/8.29c57edd.js"><link rel="prefetch" href="/assets/js/80.9488a7df.js"><link rel="prefetch" href="/assets/js/81.31146fba.js"><link rel="prefetch" href="/assets/js/82.e0cf08d9.js"><link rel="prefetch" href="/assets/js/83.f7981ad7.js"><link rel="prefetch" href="/assets/js/84.8e1de019.js"><link rel="prefetch" href="/assets/js/85.a52bf05e.js"><link rel="prefetch" href="/assets/js/86.3d1ede26.js"><link rel="prefetch" href="/assets/js/87.af85964a.js"><link rel="prefetch" href="/assets/js/88.9e14a86f.js"><link rel="prefetch" href="/assets/js/89.9d422c1c.js"><link rel="prefetch" href="/assets/js/9.905580c3.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.0ad23782.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/" class="home-link router-link-active"><!----> <span class="site-name">Sorth Tong</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/algorithm/" class="nav-link">前端算法</a></div><div class="nav-item"><a href="/accumulation/" class="nav-link router-link-active">前端积累</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="GitHub" class="dropdown-title"><span class="title">GitHub</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="https://github.com/68wangxianming" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  GitHub地址
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li><li class="dropdown-item"><!----> <a href="https://github.com/68wangxianming/front-end-algorithm" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  算法仓库
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="Select language" class="dropdown-title"><span class="title">Languages</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/accumulation/JS/ES5核心技术/ES5核心技术.html" class="nav-link">English</a></li><li class="dropdown-item"><!----> <a href="/zh/" class="nav-link">中文</a></li></ul></div></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/algorithm/" class="nav-link">前端算法</a></div><div class="nav-item"><a href="/accumulation/" class="nav-link router-link-active">前端积累</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="GitHub" class="dropdown-title"><span class="title">GitHub</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="https://github.com/68wangxianming" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  GitHub地址
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li><li class="dropdown-item"><!----> <a href="https://github.com/68wangxianming/front-end-algorithm" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  算法仓库
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="Select language" class="dropdown-title"><span class="title">Languages</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/accumulation/JS/ES5核心技术/ES5核心技术.html" class="nav-link">English</a></li><li class="dropdown-item"><!----> <a href="/zh/" class="nav-link">中文</a></li></ul></div></div> <!----></nav>  <ul class="sidebar-links"><li><section class="sidebar-group collapsable depth-0"><a href="/algorithm/" class="sidebar-heading clickable"><span>前端算法</span> <span class="arrow right"></span></a> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><a href="/accumulation/" class="sidebar-heading clickable router-link-active"><span>HTML</span> <span class="arrow right"></span></a> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><a href="/accumulation/" class="sidebar-heading clickable router-link-active"><span>CSS</span> <span class="arrow right"></span></a> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><a href="/accumulation/" class="sidebar-heading clickable router-link-active open"><span>JS</span> <span class="arrow down"></span></a> <ul class="sidebar-links sidebar-group-items"><li><a href="/accumulation/JS/EcmaScript5.1新增语法上/EcmaScript5.1新增语法上.html" class="sidebar-link">EcmaScript5.1新增语法上</a></li><li><a href="/accumulation/JS/EcmaScript5.1新增语法下/EcmaScript5.1新增语法下.html" class="sidebar-link">EcmaScript5.1新增语法下</a></li><li><a href="/accumulation/JS/ES5核心技术/ES5核心技术.html" class="active sidebar-link">ES5核心技术</a></li><li><a href="/accumulation/JS/javaScript语言精粹/javaScript语言精粹.html" class="sidebar-link">javaScript语言精粹</a></li><li><a href="/accumulation/JS/jQuery技术内幕/jQuery技术内幕.html" class="sidebar-link">jQuery技术内幕</a></li><li><a href="/accumulation/JS/js多线程/js多线程.html" class="sidebar-link">js多线程</a></li><li><a href="/accumulation/JS/阮一峰es6第三版/阮一峰es6第三版.html" class="sidebar-link">阮一峰es6第三版</a></li><li><a href="/accumulation/JS/jsCallApplyBind.html" class="sidebar-link">jsCallApplyBind</a></li><li><a href="/accumulation/JS/jsThis的指向.html" class="sidebar-link">jsThis的指向</a></li><li><a href="/accumulation/JS/js的基本数据类型.html" class="sidebar-link">js的基本数据类型</a></li><li><a href="/accumulation/JS/js解析与执行过程.html" class="sidebar-link">js解析与执行过程</a></li><li><a href="/accumulation/JS/js防抖节流.html" class="sidebar-link">js防抖节流</a></li><li><a href="/accumulation/JS/promise简单实现分步操作.html" class="sidebar-link">promise简单实现分步操作</a></li><li><a href="/accumulation/JS/原生JS与Promise对ajax操作.html" class="sidebar-link">原生JS与Promise对ajax操作</a></li></ul></section></li><li><section class="sidebar-group collapsable depth-0"><a href="/accumulation/" class="sidebar-heading clickable router-link-active"><span>TypeScript</span> <span class="arrow right"></span></a> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><a href="/accumulation/" class="sidebar-heading clickable router-link-active"><span>Vue</span> <span class="arrow right"></span></a> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><a href="/accumulation/" class="sidebar-heading clickable router-link-active"><span>Webpack</span> <span class="arrow right"></span></a> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><a href="/accumulation/" class="sidebar-heading clickable router-link-active"><span>Node</span> <span class="arrow right"></span></a> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><a href="/accumulation/" class="sidebar-heading clickable router-link-active"><span>HTTP</span> <span class="arrow right"></span></a> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><a href="/accumulation/" class="sidebar-heading clickable router-link-active"><span>Linux</span> <span class="arrow right"></span></a> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><a href="/accumulation/" class="sidebar-heading clickable router-link-active"><span>Other</span> <span class="arrow right"></span></a> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><a href="/accumulation/" class="sidebar-heading clickable router-link-active"><span>前端基础面试题</span> <span class="arrow right"></span></a> <!----></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h4 id="this"><a href="#this" class="header-anchor">#</a> this</h4> <p>this问题千花百样，面试总问，那我们就不厌其烦的看，看到吐为止
+<strong>再次加强对this谁调动指向谁的问题</strong></p> <pre><code>this.a = 20;
+var p = {
+    a:30,
+    test:function() {
+        alert(this.a)
+    }
+}
+p.test()//30 this-&gt;p
+var s = p.test
+s();// 20 thos-&gt;window
+
+this.a = 20;
+var test = {
+    a: 40,
+    init: () =&gt; {
+        console.log(this.a);
+        function go() {
+            this.a = 60;
+            console.log(this.a)
+        }
+        go.prototype.a = 50;
+        return go;
+    }
+};
+var p = test.init()
+p()
+new (test.init())();
+20 60 60 60
+</code></pre> <h4 id="原型"><a href="#原型" class="header-anchor">#</a> 原型</h4> <pre><code>    var Car = function (color) {
+        //constructor == Car 构造函数和初始化这个类是一个东西
+        this.color = color;
+        console.log(111);
+    }
+
+    Car.prototype.sell = function () {
+        console.log(this.color + &quot;色的车被卖了&quot;);
+    }
+
+    var BWM = function (color) {
+        Car.call(this, color)
+    }
+
+    BWM.prototype = new Car() //111
+    var m = new BWM('red') //111
+    console.log(m)
+</code></pre> <p><img src="1.jpg" alt="avatar"></p> <p><strong>需要解决问题</strong></p> <ul><li><p>1、拿到父类原型链上的方法</p></li> <li><p>2、不能让构造函数执行两次</p></li> <li><p>3、引用的原型链不能是按址引用</p></li> <li><p>4、修正子类的constructor</p> <p>var Car = function (color) {
+//constructor == Car 构造函数和初始化这个类是一个东西
+this.color = color;
+console.log(111);
+}</p> <p>Car.prototype.sell = function () {
+console.log(this.color + &quot;色的车被卖了&quot;);
+}</p> <p>var BWM = function (color) {
+Car.call(this, color)
+}</p> <p>var __pro = Object.create(Car.prototype);
+__pro.constructor = BWM;
+BWM.prototype = __pro;
+var m = new BWM('red') //111
+console.log(m)</p></li></ul> <p><img src="1.jpg" alt="avatar"></p> <h4 id="套路题"><a href="#套路题" class="header-anchor">#</a> 套路题</h4> <pre><code>(function () {
+    var a = 200;
+    var b = c = a;
+})()
+alert(c)
+
+(function () {
+    var a = 200;
+    var b ，c = a;
+})()
+alert(c)
+</code></pre> <h4 id="bind"><a href="#bind" class="header-anchor">#</a> bind</h4> <pre><code>var user = {
+    age:20,
+    init:function() {
+        console.log(this.age)
+    }
+}
+
+var newUser = {age:28};
+user.init.bind(newUser)//空 返回的是一个新函数
+user.init.bind(newUser)()//28
+var newBind = user.init.bind(newUser)
+newBind()//28
+</code></pre> <h4 id="总结"><a href="#总结" class="header-anchor">#</a> 总结</h4> <p><strong>1、立即执行函数</strong></p> <p><strong>2、闭包</strong>
+当内部函数被保存到外部的时候就会产生闭包，闭包会导致原有的作用域链不被释放，产生内存泄漏</p> <div class="language-javascript line-numbers-mode"><pre class="language-javascript"><code><span class="token comment">//实现公有变量 闭包实现一个累加器</span>
+<span class="token keyword">function</span> <span class="token function">add</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">var</span> count <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span>
+    <span class="token keyword">function</span> <span class="token function">demo</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        count<span class="token operator">++</span><span class="token punctuation">;</span>
+        console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>count<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+    <span class="token keyword">return</span> demo
+<span class="token punctuation">}</span>
+
+<span class="token keyword">var</span> counter <span class="token operator">=</span> <span class="token function">add</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token function">counter</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token function">counter</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br></div></div><div class="language-javascript line-numbers-mode"><pre class="language-javascript"><code><span class="token comment">//可以做缓存（保存数据结构）</span>
+<span class="token keyword">function</span> <span class="token function">test</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">var</span> num <span class="token operator">=</span> <span class="token number">100</span><span class="token punctuation">;</span>
+    <span class="token keyword">function</span> <span class="token function">a</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        num<span class="token operator">++</span><span class="token punctuation">;</span>
+        console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>num<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+    <span class="token keyword">function</span> <span class="token function">b</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        num<span class="token operator">--</span><span class="token punctuation">;</span>
+        console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>num<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+    <span class="token keyword">return</span> <span class="token punctuation">[</span>a<span class="token punctuation">,</span>b<span class="token punctuation">]</span>
+<span class="token punctuation">}</span>
+<span class="token keyword">var</span> myArr <span class="token operator">=</span> <span class="token function">test</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+myArr<span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">]</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+myArr<span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">]</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br></div></div><div class="language-javascript line-numbers-mode"><pre class="language-javascript"><code>    <span class="token comment">//可实现封装，属性私有化</span>
+<span class="token keyword">function</span> <span class="token function">Deng</span><span class="token punctuation">(</span><span class="token parameter">name<span class="token punctuation">,</span> wife</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">var</span> prepareWife <span class="token operator">=</span> <span class="token string">'xiaozhang'</span> <span class="token comment">//变量变成了自己私有化的变量，别人无法访问</span>
+    <span class="token keyword">this</span><span class="token punctuation">.</span>name <span class="token operator">=</span> name
+    <span class="token keyword">this</span><span class="token punctuation">.</span>wife <span class="token operator">=</span> wife
+    <span class="token keyword">this</span><span class="token punctuation">.</span><span class="token function-variable function">divorce</span> <span class="token operator">=</span> <span class="token keyword">function</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token keyword">this</span><span class="token punctuation">.</span>wife <span class="token operator">=</span> prepareWife
+    <span class="token punctuation">}</span>
+    <span class="token keyword">this</span><span class="token punctuation">.</span><span class="token function-variable function">changePrepareWife</span> <span class="token operator">=</span> <span class="token keyword">function</span> <span class="token punctuation">(</span><span class="token parameter">target</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        prepareWife <span class="token operator">=</span> target
+    <span class="token punctuation">}</span>
+    <span class="token keyword">this</span><span class="token punctuation">.</span><span class="token function-variable function">sayPrepareWife</span> <span class="token operator">=</span> <span class="token keyword">function</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>prepareWife<span class="token punctuation">)</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+
+<span class="token keyword">var</span> deng <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">Deng</span><span class="token punctuation">(</span><span class="token string">'deng'</span><span class="token punctuation">,</span> <span class="token string">'xiaoliu'</span><span class="token punctuation">)</span>
+deng<span class="token punctuation">.</span><span class="token function">divorce</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>deng<span class="token punctuation">.</span>wife<span class="token punctuation">)</span> <span class="token comment">//xiaozhang</span>
+deng<span class="token punctuation">.</span><span class="token function">sayPrepareWife</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token comment">//xiaozhang</span>
+console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>prepareWife<span class="token punctuation">)</span> <span class="token comment">//prepareWife is not defined</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br><span class="line-number">21</span><br></div></div><div class="language-javascript line-numbers-mode"><pre class="language-javascript"><code><span class="token comment">//模块开发，防止污染全局变量</span>
+<span class="token keyword">var</span> name <span class="token operator">=</span> <span class="token string">'xiaozhang'</span><span class="token punctuation">;</span>
+<span class="token keyword">var</span> init <span class="token operator">=</span> <span class="token punctuation">(</span><span class="token keyword">function</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">var</span> name <span class="token operator">=</span> <span class="token string">'xiaoming'</span><span class="token punctuation">;</span>
+    <span class="token keyword">function</span> <span class="token function">callName</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>name<span class="token punctuation">)</span>
+    <span class="token punctuation">}</span>
+    <span class="token keyword">return</span> <span class="token keyword">function</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token function">callName</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span>
+
+<span class="token function">init</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token comment">//xiaoming</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br></div></div><p><strong>3、原型链</strong>
+3.1 构造函数理的属性的优先级比原型链的要高
+3.2 面向对象编程的时候JS没有类的概念 可以用函数代替
+3.3 constructor 实际就是对应的那个函数
+3.4 prototype 按引用传递的  object.create创建原型的副本</p> <p><strong>4、数值 字符串 布尔类型 按值传递 对象数组按引用传递</strong></p> <p><strong>5、改变this执行 bind call apply</strong></p> <p><strong>6、预编译</strong>
+1、创建AO对象 (执行期上下文)
+2、找形参和变量声明（变量提升），将变量和形参最为AO属性名，值为undefined
+3、将实参值和形参统一
+4、在函数体里面找函数声明，值赋予函数</p></div> <footer class="page-edit"><!----> <!----></footer> <div class="page-nav"><p class="inner"><span class="prev">
+      ←
+      <a href="/accumulation/JS/EcmaScript5.1新增语法下/EcmaScript5.1新增语法下.html" class="prev">EcmaScript5.1新增语法下</a></span> <span class="next"><a href="/accumulation/JS/javaScript语言精粹/javaScript语言精粹.html">javaScript语言精粹</a>
+      →
+    </span></p></div> </main></div><div class="global-ui"></div></div>
+    <script src="/assets/js/app.6e5cd8bf.js" defer></script><script src="/assets/js/2.f4f4c0ef.js" defer></script><script src="/assets/js/35.1c78414f.js" defer></script>
+  </body>
+</html>
